@@ -16,7 +16,7 @@ To install Test::Unit:
 
 I try to cover various features of Test::Unit, but my first milestone is to explain what's available in Test::Unit (e.g., assert methods). The first milestone will not include any implementation code. You just write test code and run it to understand Test::Unit. The target audience is those who have no experience with using Test::Unit.
 
-Most of the tutotials at this moment originate from a [RubyLearing](http://rubylearning.org) course I was planning to run. I would like to thank all, who helped during the time. The course was run as an experiment, but I didn't succeed in making the course as one complete course. (I gave up making a course, so I decided part of the planned course to public.)
+Most of the tutotials at this moment originate from a [RubyLearning](http://rubylearning.org) course I was planning to run. I would like to thank all, who helped during the time. The course was run as an experiment, but I didn't succeed in making the course as one complete course. (I gave up making a course, so I decided part of the planned course to public.)
 
 ## Excersices and Discussion
 

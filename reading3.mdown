@@ -1,0 +1,17 @@
+# Part 3
+
+Let’s practice reading the file.
+
+Please find the file attached (“test\_lesson02_03.rb”). Run the test file.
+
+Can you understand the output?
+
+We will talk more about the assert methods in more details later on. `assert_equal` is asserting equality.
+
+## Questions
+
+
+* What’s the difference between “error” and “failure”?
+* How many “pass” did we get?
+* How many tests in total?
+* How many assertions in total?

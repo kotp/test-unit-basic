@@ -1,0 +1,24 @@
+# Part 6
+
+<ul>
+<li>What’s the difference between equal and same?</li>
+<li>What does “match” mean?</li>
+<li>What are “throw” and “raise”?</li>
+<li>What’s the difference between kind_of and instance_of?</li>
+<li>What’s flunk()?</li>
+</ul>
+
+<p>Here are notes.</p>
+
+<ul>
+<li><p>assert_equal() uses == to check equality while assert_same() uses <code>equal?</code> to check the “sameness”. Still confused? Check <a href="http://rubylearning.com/satishtalim/more_on_strings.html">the Core material</a>.</p></li>
+<li><p>Match is about regular expressions. Don’t freak out. See <a href="http://rubylearning.com/satishtalim/ruby_regular_expressions.html">the core material</a> for review.</p></li>
+<li><p>If you have no idea about “raise” and “throw”, please go back to read <a href="http://rubylearning.com/satishtalim/ruby_exceptions.html">the core material</a>.</p></li>
+<li><p>Don’t be confused with <a href="http://www.ruby-doc.org/core/classes/Object.html#M000370">kind_of?</a> and <a href="http://www.ruby-doc.org/core/classes/Object.html#M000369">instance_of?</a>.</p></li>
+<li><p>flunk() is a special assertion. It always fails.</p></li>
+</ul>
+
+<p>Right, we don’t always provide complete tutorials. It’s up to you to search for answers. But if you still can’t understand, don’t be shy to ask in forums. If you understand everything by reading, you don’t need us, right? In either case, the API documentation and Google are always friends of us.</p>
+
+<p><strong>NOTE for Rails Users</strong>: If you started learning Ruby language and Ruby on Rails framework, you may be feeling something strange. You’ve heard of many more assert methods, right? Ruby on Rails expands Test::Unit and it adds several methods. Also ZenTest, which we are introducing in this course also has its own assert methods. Don’t be confused. While we don’t discuss Ruby on Rails here, getting a solid understanding of Ruby’s built-in Test::Unit will lead to better understanding for whatever you will learn in the future.</p>
+

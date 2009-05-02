@@ -1,0 +1,16 @@
+# Part 5
+
+
+Here is a file that has every assert method included (“test\_lesson\_02\_05.rb”). Try running the file. Again see and understand the output.
+
+In the next section we are going to cover some of the methods in details. In particular:
+
+
+* What’s the difference between "equal" and "same"?
+* What does "match" mean?
+* What are "throw" and "raise"?
+* What’s flunk()?
+
+
+See you in the next section.
+

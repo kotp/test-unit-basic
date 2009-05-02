@@ -1,0 +1,44 @@
+# Part 7
+
+<h3 id="keywords_and_notes_for_lesson_2">Keywords and Notes for Lesson 2</h3>
+
+<ul>
+<li>Test Case</li>
+<li>Test::Unit</li>
+<li>Test methods</li>
+<li>Test methods name should start with “test_”</li>
+<li>Test file name should start with “test_”. (Not required, but highly recommended)</li>
+<li>Difference between failure and errors</li>
+<li>Counting assertions in a file</li>
+<li>What does “E”, “F” and “.” mean in the output?</li>
+<li>What is assertion?</li>
+</ul>
+<p>Ask questions if you don't understand them.</p>
+<h3 id="now_you_are8230">Now you are...</h3>
+
+<p>At the end of this lesson, you should be able to make test files, run test files and read the output. You don’t have to understand every assert method right now. But you will be using them a lot. Modify some of the sample files from this lesson and try using different assert methods.</p>
+
+<h3 id="redgreen_gem">RedGreen gem</h3>
+
+<p><a href="http://on-ruby.blogspot.com/2006/05/red-and-green-for-ruby.html">RedGreen gem</a> adds colors on your test results.</p>
+
+<p>To install the gem, run the following command at the command prompt.</p>
+
+[code text]gem install redgreen[/code]
+
+<p>Mac and Linux users will need to do</p>
+
+    sudo gem install redgreen
+
+
+<h2 id="exercise">Exercise</h2>
+
+<p>Make a test file and play with it using as many assert methods as possible.</p>
+
+<p>You can test built-in methods and functionalities. Use each assert method at least once. </p>
+
+<p>For example,</p>
+
+    def test_string_concatanation_and_asterisk_method
+      assert_equal("TDD", "T" + "D"*2)
+    end

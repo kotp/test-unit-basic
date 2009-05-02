@@ -1,0 +1,40 @@
+# Part 1
+
+First you need to have a test file. Let’s create a test file with me.
+
+First and foremost, we need to “require” Test::Unit. We do this by:
+
+    require "test/unit"
+
+
+Then, we need a class that inherits “Test::Unit::TestCase”. The class name should start with Test and follow the Ruby rule for the name. Use a capital letter for the first character of the word. Connect the words without underscores.
+
+Here’s a sample file.
+
+    # lesson02-01.rb
+    require "test/unit"
+
+## Make a test case
+
+    class TestLesson0201 < Test::Unit::TestCase
+      # test method 1.
+      def test_true
+        assert_equal(true, true)
+      end
+      # test method 2.
+      def test_false
+        assert_equal(false, false)
+      end
+    end
+
+
+Let’s save the file as “test\_lesson02\_01.rb”.  (Although it’s not mandatory, we recommend that test file names start with “test_”.)
+
+
+* Each method name inside the test file should start with “test_”.
+* Each class is called a “test case”. A test case has a number of test methods.
+
+
+You don’t have to understand the body of each test method. But you should recognize how many test methods exist.
+
+Now before discussing more in-depth how to write a test case, let’s learn how to run the test files.

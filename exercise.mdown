@@ -1,0 +1,11 @@
+Make a test file and play with it using as many assert methods as possible.
+
+You can test built-in methods and functionalities. Use each assert method at least once.
+
+For example,
+
+    def test_string_concatanation_and_asterisk_method
+      assert_equal("TDD", "T" + "D"*2)
+    end
+
+You should have something like “test\_lesson02\_05.rb” file. Post your code here.

@@ -1,0 +1,28 @@
+# Part 4
+
+<a href="http://www.ruby-doc.org/stdlib/libdoc/test/unit/rdoc/classes/Test/Unit/Assertions.html">This page has a list of assert methods and explanation.</a>
+
+Ignore `use_pp=` and `build_message` for now.
+
+Every assert method starts its name with “assert” with one exception (`flunk()` method).
+
+You might have noticed that some assert methods have negative versions.
+
+
+* `assert()` vs `assert_nil()`
+* `assert_equal()` vs `assert_not_equal()`
+* `assert_match()` vs `assert_no_match()`
+* `assert_same()` vs `assert_not_same()`
+* `assert_throws()` vs `assert_nothing_thrown()`
+* `assert_raise()` vs `assert_nothing_raised()`
+
+
+Also examine closely parameters they take. Most of the assert messages take a “message”, which is useful because the message shows up in the output when you run test files. For example,
+
+[code ruby]assert_equal(10, 2+8, "two + eight should be ten")
+[/code]
+
+**Note**: Don’t worry. You don’t have to understand every method now. You will be using them a lot in the course.
+
+**Note**: Don’t use `assert_raises()`. The method is deprecated.
+

@@ -1,0 +1,109 @@
+# Part 2
+
+We are now running test files. First download the test files. (All the file names start with “lesson02_02”.) Running the test file is easy. You simply use `ruby` command against each file.
+
+    ruby test_lesson02_01_01.rb
+
+You should have got a result like this:
+
+    Loaded suite /Users/takaaki/Desktop/test/test_lesson02_02_01
+    Started
+
+    Finished in 0.000498 seconds.
+
+    0 tests, 0 assertions, 0 failures, 0 errors
+
+
+Observe the file. We only have one line. No test case and no test methods.
+
+Next, let’s move on to another file. Run the following:
+
+    ruby test_lesson02_02_02.rb
+
+
+Now you get something like this:
+
+    Loaded suite /Users/takaaki/Desktop/test/test_lesson02_02_02
+    Started
+    F
+    Finished in 0.003119 seconds.
+
+      1) Failure:
+    default_test:5
+    No tests were specified.
+
+    1 tests, 1 assertions, 1 failures, 0 errors
+
+
+This time, we had a test file and test case, but with no methods. That’s why we got `No tests were specified.`.
+
+Next up.
+
+    ruby test_lesson02_02_03.rb
+
+
+The result will look like:
+
+    Loaded suite /Users/takaaki/Desktop/test/test_lesson02_02_03
+    Started
+    .
+    Finished in 0.001165 seconds.
+
+    1 tests, 0 assertions, 0 failures, 0 errors
+
+
+Interesting, eh? We not have a test method. But we kept the inside of the method empty! But we got no failures or errors.
+
+OK. The last file.
+
+    ruby test_lesson02_02_04.rb
+
+
+The result:
+
+    Loaded suite /Users/takaaki/Desktop/test/test_lesson02_02_04
+    Started
+    EF..
+    Finished in 0.011159 seconds.
+
+      1) Error:
+    test_error(TestLesson020204):
+    NameError: undefined local variable or method `foobar' for #<TestLesson020204:0x54330>
+    method test_error in test_lesson02_02_04.rb at line 15
+
+      2) Failure:
+    test_fail:12
+    <true> expected but was
+    <false>.
+
+    4 tests, 3 assertions, 1 failures, 1 errors
+
+We now got a bit complicated result. Let’s see one by one. See the line that starts with “EF”.
+
+This shows the basic output. “E” means “Error”. “F” means “Fail”. And “.” means “Pass”. So in this example, 1 error, 1 failure and 2 passes.
+
+What’s the difference between “error” and “fail”?
+
+If you look at the output more carefully, you will find “NameError” in the explanation. So the error is just an error of the ruby script. You get an error, for example, your syntax is incorrect.
+
+On the other hand, “fail” is antonym of “pass”. “Pass” and “fail” are discrete. You fail or pass; there is nothing in between. In the “failure” example, you see
+  
+
+    <true> expected but was <false>
+
+.
+
+This means the test expected `true` but it got `false`, thus failing.  Error and failure messages are both useful. Make sure you always read the output.
+
+In the final line of the output,
+
+    4 tests, 3 assertions, 1 failures, 1 errors
+
+
+We already explained failures and errors. “tests” is the number of the method. We have four methods in our test file. “assertions” is the number of the assert methods. Since our last method doesn’t have the assert method, we have 3 assertions.
+
+By the way, do you remember what assertion is? “Assertion is a statement that you expect it to be true.” Say it aloud 10 times. Now! It’s that important.
+
+In the next section, we will talk more about how we write each method and assertion.
+
+Ability to read output is critical.

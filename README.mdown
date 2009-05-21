@@ -5,7 +5,7 @@
 
 ## Installation
 
-If you use Ruby 1.8.X, you already have Test::Unit installed. Ruby 1.9 users need to isntall Test::Unit as a gem
+If you use Ruby 1.8.X, you already have Test::Unit installed. Ruby 1.9 users need to install Test::Unit as a gem
 
 To install Test::Unit:
 
@@ -16,11 +16,11 @@ To install Test::Unit:
 
 I try to cover various features of Test::Unit, but my first milestone is to explain what's available in Test::Unit (e.g., assert methods). The first milestone will not include any implementation code. You just write test code and run it to understand Test::Unit. The target audience is those who have no experience with using Test::Unit.
 
-Most of the tutotials at this moment originate from a [RubyLearning](http://rubylearning.org) course I was planning to run. I would like to thank all, who helped during the time. The course was run as an experiment, but I didn't succeed in making the course as one complete course. (I gave up making a course, so I decided part of the planned course to public.)
+Most of the tutotials at this moment originate from a [RubyLearning](http://rubylearning.org) course I was planning to run. I would like to thank all, who helped during the time. The course was ran as an experiment, but I didn't succeed in making the course as one complete course. (I gave up making a course, so I decided to make part of the planned course public.)
 
 ## Excersices and Discussion
 
-I dont't plan to make any forums or mailing list for now. But we can use the GitHub issue tracker for discussion. At this moment, there is no answers prepared for questions.
+I dont't plan to make any forums or mailing list for now. But we can use the GitHub issue tracker for discussion. At this moment, there are no answers prepared for questions.
 
 
 ## Help Me
